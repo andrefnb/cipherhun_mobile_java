@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cipher Hunt</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="cipher_hunt">Cipher Hunt</string>
+    <string name="registar">Register</string>
+    <string name="login">Login</string>
+    <string name="challenge">Challenge</string>
+    <string name="challenges">Challenges</string>
+    <string name="textview">TextView</string>
+    <string name="answer">Answer</string>
+    <string name="textviewPista">TextView</string>
+    <string name="nome_do_desafio">Challenge Name</string>
+    <string name="descri_o">Description</string>
+    <string name="n_mero_de_enigmas">Number of Ciphers</string>
+    <string name="ainda_n_o_est_inscrito_no_desafio">Not yet registered in this challenge</string>
+    <string name="inscrever">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="iniciar_sess_o">Login</string>
+    <string name="textviewLoginErro">The username/password are incorrect</string>
+    <string name="bem_vindo">Welcome</string>
+    <string name="desafios">Challenges</string>
+    <string name="mapa">Map</string>
+    <string name="perfil">Profile</string>
+    <string name="usernameProfile">Username</string>
+    <string name="nome">Name</string>
+    <string name="email">Email</string>
+    <string name="localidade">Region</string>
+    <string name="desafios_come_ados">Challenges Started</string>
+    <string name="desafios_concluidos">Challenges Finished</string>
+    <string name="registarRegister">Register</string>
+    <string name="usernameRegister">Username*</string>
+    <string name="passwordRegister">Password*</string>
+    <string name="nomeRegister">Name</string>
+    <string name="emailRegister">Email</string>
+    <string name="localidadeRegister">Region</string>
+    <string name="efetuar_registo">Make Registry</string>
+    <string name="titulo_enigma">Result</string>
+    <string name="mensagem_enigma">It is correct, congratulations!!!</string>
+    <string name="terminou_challenges_profile">Already finished this challenge</string>
+    <string name="enigma">Cipher</string>
+    <string name="enigma_challenges_enigma">Cipher</string>
+    <string name="enigma_challenges_pista">Clue</string>
+    <string name="perfil_challenges_profile">Profile</string>
+    <string name="mapa_maps">Map</string>
+    <string name="registar_register">Register</string>
+    <string name="sucesso">Success</string>
+    <string name="mensagemSucesso">Account registered with success!</string>
+    <string name="erro">Error</string>
+    <string name="mensagemErro1">The username and password are required\n</string>
+    <string name="mensagemErro2">The email is invalid\n</string>
+    <string name="mensagemErro3">The username is already in use\n</string>
+    <string name="mensagemErro4">The email is already in use\n</string>
+    <string name="DesafioInfo">"You\'re already registered in this challenge with "</string>
+    <string name="DesafioInfo1">" finished ciphers"</string>
+    <string name="continuarDesafio">Continue Challenge</string>
+    <string name="primeiraPista">You haven\'t found the first cipher. You have to go look for the QR code, to do that you have to click the map button so that you can observe it\'s location. In the map you\'ll have the camera button to use the camera to read the QR code</string>
+
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.andreb.luism.CipherHunt.RegisterActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:toolbarId="@+id/toolbarRegister"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="?attr/colorPrimary">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbarRegister"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="match_parent"
+                android:background="#111111">
+
+                <TextView
+                    android:id="@+id/enigmaName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/registarRegister"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:background="#000">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:hint="@string/usernameRegister"
+                android:inputType="text"
+                android:background="#EEEEEE"
+                android:textColorHint="#999"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:id="@+id/usernameRegisto"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:padding="7dp"
+            android:background="#000">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:hint="@string/passwordRegister"
+                android:inputType="textPassword"
+                android:background="#EEEEEE"
+                android:textColorHint="#999"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:id="@+id/passwordRegisto"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:padding="7dp"
+            android:background="#000">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:hint="@string/nomeRegister"
+                android:inputType="textPersonName"
+                android:background="#EEEEEE"
+                android:textColorHint="#999"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:id="@+id/nomeRegisto"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:padding="7dp"
+            android:background="#000">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:hint="@string/emailRegister"
+                android:inputType="textEmailAddress"
+                android:background="#EEEEEE"
+                android:textColorHint="#999"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:id="@+id/emailRegisto"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:padding="7dp"
+            android:background="#000">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:hint="@string/localidadeRegister"
+                android:inputType="text"
+                android:background="#EEEEEE"
+                android:textColorHint="#999"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:id="@+id/localidadeRegisto"/>
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:foreground="@drawable/gradient_enigmas">
+
+            <Button
+                android:text="@string/efetuar_registo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="#000"
+                android:elevation="0dp"
+                android:onClick="registar"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

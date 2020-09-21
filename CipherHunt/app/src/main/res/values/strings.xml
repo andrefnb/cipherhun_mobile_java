@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cipher Hunt</string>
+    <string name="title_activity_maps">Mapa</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="cipher_hunt">Cipher Hunt</string>
+    <string name="registar">Registar</string>
+    <string name="login">Login</string>
+    <string name="challenge">Desafio</string>
+    <string name="challenges">Desafios</string>
+    <string name="textview">TextView</string>
+    <string name="answer">Resposta</string>
+    <string name="textviewPista">TextView</string>
+    <string name="nome_do_desafio">Nome do Desafio</string>
+    <string name="descri_o">Descrição</string>
+    <string name="n_mero_de_enigmas">Número de Enigmas</string>
+    <string name="ainda_n_o_est_inscrito_no_desafio">Ainda não está inscrito no desafio</string>
+    <string name="inscrever">Inscrever</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="iniciar_sess_o">Iniciar\nSessão</string>
+    <string name="textviewLoginErro">O username/password estão errados</string>
+    <string name="bem_vindo">Bem-Vindo</string>
+    <string name="desafios">Desafios</string>
+    <string name="mapa">Mapa</string>
+    <string name="perfil">Perfil</string>
+    <string name="usernameProfile">Username</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="localidade">Localidade</string>
+    <string name="desafios_come_ados">Desafios Começados</string>
+    <string name="desafios_concluidos">Desafios Concluidos</string>
+    <string name="registarRegister">Registar</string>
+    <string name="usernameRegister">Username*</string>
+    <string name="passwordRegister">Password*</string>
+    <string name="nomeRegister">Nome</string>
+    <string name="emailRegister">Email</string>
+    <string name="localidadeRegister">Localidade</string>
+    <string name="efetuar_registo">Efetuar Registo</string>
+    <string name="titulo_enigma">Resultado</string>
+    <string name="mensagem_enigma">Está correto, parabéns!!!</string>
+    <string name="terminou_challenges_profile">Já terminou este desafio</string>
+    <string name="enigma">Enigma</string>
+    <string name="enigma_challenges_enigma">Enigma</string>
+    <string name="enigma_challenges_pista">Pista</string>
+    <string name="perfil_challenges_profile">Perfil</string>
+    <string name="mapa_maps">Mapa</string>
+    <string name="registar_register">Registar</string>
+    <string name="sucesso">Sucesso</string>
+    <string name="mensagemSucesso">Registo efetuado com sucesso!</string>
+    <string name="erro">Erro</string>
+    <string name="mensagemErro1">O username e a password são obrigatórios\n</string>
+    <string name="mensagemErro2">O email é inválido\n</string>
+    <string name="mensagemErro3">O username já está associado\n</string>
+    <string name="mensagemErro4">O email já está associado\n</string>
+    <string name="DesafioInfo">"Já está inscrito neste desafio com "</string>
+    <string name="DesafioInfo1">" enigmas concluídos"</string>
+    <string name="continuarDesafio">Continuar\nDesafio</string>
+    <string name="primeiraPista">Ainda não desbloqueaste o 1º Enigma. Vai à procura do código QR, para o fazeres clica no botão do mapa para puderes observar a sua localização e irá estar lá o botão da camara para a leitura do código QR</string>
+
+</resources>
